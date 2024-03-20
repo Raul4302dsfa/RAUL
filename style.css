@@ -9,7 +9,7 @@
     justify-content: space-around;
 }
 .cabecalho-imagem{
-    width: 20%;
+    width: 50%;
 }
 .cabecalho-lista-item {
     display: inline-block;
@@ -17,4 +17,12 @@
     justify-content: space-around;
     padding: 24px 0;
     font-size: 24px;
+}
+.escola-imagem {
+    width: 25%;
+} 
+.escola {
+    background-image: linear-gradient(#383d58, #00c0eb);
+    color: white;
+    display: flex;
 }
