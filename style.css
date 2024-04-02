@@ -4,45 +4,98 @@
     display:flex;
     justify-content: space-around;
     padding: 24px 0;
-    }
+}
 .cabecalho-lista-item{
     display: inline-block;
     margin: 0 16px;
     padding: 24px 0;
     font-size: 24px;
-    }
+}
 .cabecalho-imagem{
     width: 20%;
-    }
-    * {
+}
+* {
     margin: 0 16px;
     justify-content: space-around;
     padding: 24px 0;
     font-size: 24px;
-    }
+}
 .escola-imagem{
     width:25%;
-    }
+}
 .escola {
     background-image: linear-gradient(#383D58,#00c0eb);
     color: white;
     display:flex;
-    }
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+.estudante-titulo {
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+section {
+    display: block;
+}
+.escola-titulo{
+    padding: 24px 0;
+}
+body{
+    font-family: 'poppins',sans-serif;
+}
+.estudante-imagem {
+    width: 120px;
+}
+.estudante-icone{
+    width: 24px;
+}
+.estudante-div {
+    text-align: center;
+}
+
+.estudante-todos {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+footer{
+    background-color: black;
+    padding: 15px 0;
+    text-align: center;
+    display: block;
+}
 .escola-conteudo{
     width: 35%;
-    }
-.escola{
-        display:flex;
-        justify-content: center;
-        align-items: center;}
+}
 .poppins-regular {
-            font-family: "Poppins", sans-serif;
-            font-weight: 400;
-            font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .poppins-bold {
-            font-family: "Poppins", sans-serif;
-            font-weight: 700;
-            font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
-          
+div {
+    display: block;
+}
+img {
+    overflow-clip-margin: content box;
+    overflow: clip;
+}
